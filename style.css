@@ -1,0 +1,463 @@
+body {
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-image: url('https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    font-family: 'Montserrat', sans-serif;
+
+		color: rgb(4, 44, 51);
+    
+    letter-spacing: 4px;
+    font-weight: 10;
+height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#str{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+
+		color: rgb(4, 44, 51);
+    font-size: 100px;
+    letter-spacing: 4px;
+    font-weight: 10;
+}
+header:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	background:#45B39D ;
+	opacity: 0.2;
+	top: 0;
+	left: 0
+}
+.slogan {
+    
+    font-size: 20px;
+    color: rgb(8, 8, 22);
+    padding-top: 190px;
+    letter-spacing: 3px;
+    padding-right: 200px;
+    font-weight: 20;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#navy{
+	background:#45B39D  ;
+	color: white;
+
+}
+#but{
+	background:#45B39D  ;
+	
+
+}
+#btn{
+	background:#45B39D  ;
+	
+
+}
+#btnn{
+	background:#45B39D  ;
+	
+
+}
+#blue{
+	background:#45B39D  ;
+	
+
+}
+#send{
+	color:#45B39D  ;
+	background: white;
+
+}
+footer{
+	background: #45B39D  ;
+	height: 500px;
+	color: white;
+
+
+}
+.parallax-section {
+	background-attachment: fixed!important;
+}
+.btn-capsul {
+	border-radius: 30px;
+}
+.btn-aqua {
+	background: #45B39D;
+	color: #fff;
+}
+.btn-aqua:hover {
+	background:  #45B39D;
+	color: #fff;
+}
+.btn-dark-blue {
+	background: #0C242E;
+	color: #fff;
+}
+.btn-dark-blue:hover {
+	background: #45B39D;
+	color: #fff;
+}
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.btn-transparent-white:hover, .btn-transparent-white:focus {
+	background: #fff;
+	color: #45B39D ;
+}
+.relative-box {
+	position: relative
+}
+section {
+	float: left;
+	width: 100%;
+	padding: 80px 0;
+}
+
+
+/* TOP HEADER
+-------------------------------------------------- */
+
+
+.navbar.top-bar {
+	border-radius: 0;
+	padding: 16px 0;
+	z-index: 16;
+}
+.navbar-toggler {
+	border: 1px solid #fff;
+	color:#45B39D ;
+	position: absolute;
+	right: 21px;
+}
+.sps {
+	padding: 1em .5em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 0.25s ease;
+	width: 100%;
+}
+.sps--abv {
+	background-color: #45B39D  ;
+	color: white;
+}
+.sps--blw {
+	background-color:#45B39D   ;
+	color: white;
+}
+.top-bar a.navbar-brand {
+	color: white;
+	font-size: 26px;
+	font-weight: 800;
+	padding: 5px 0 0 10px;
+
+}
+.sps--blw.top-bar a.navbar-brand {
+	color: white;
+}
+.top-bar a.navbar-brand span {
+	color: white;
+}
+.top-bar .nav-link {
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 18px!important;
+}
+.sps--blw.top-bar .nav-link {
+	color: white;
+}
+.top-bar .navbar-nav .nav-item {
+	margin: 0
+}
+.top-bar .nav-link:hover, .top-bar .nav-item.active a {
+	color: white;
+	border-bottom: 2px solid white;
+	border-radius: 0;
+}
+.sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
+	color: white;
+	border-bottom: none;
+	border-radius: 0;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/*Swiper*/
+.swiper-container {
+	width: 100%;
+	height: 100vh;
+}
+.swiper-slide {
+	
+	font-size: 50px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+
+	
+
+	
+}
+.main-slider .slider-bg-position {
+	background-size: cover!important;
+	background-position: center center!important;
+}
+.main-slider .swiper-button-prev, .main-slider .swiper-button-next {
+	background-image: none!important;
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.main-slider h2 {
+	color:rgb(2, 2, 39);
+	font-size: 35px;
+
+	padding: 0 19%;
+}
+.main-slider .swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	background: rgba(255,255,255,0.9)
+}
+.main-slider .swiper-pagination-bullet-active {
+	background: rgb(2, 2, 39);
+}
+/* SERVICE SECTION
+-------------------------------------------------- */
+
+.service-sec .heading {
+	float: left;
+	width: 100%;
+	margin-bottom: 70px;
+	text-align:center;
+}
+.service-sec h2 {
+	display: block;
+	text-transform: capitalize;
+	font-weight: 600;
+	color: rgb(2, 2, 39);
+	font-size: 32px;
+}
+.service-sec h2 small {
+	color: #222;
+	display: block;
+	font-size: 22px;
+	margin-bottom: 18px;
+}
+.service-sec i {
+	border: 1px solid rgb(2, 2, 39);
+	border-radius: 2px;
+	font-size: 25px;
+	padding: 12px 0;
+	width: 52px;
+	color:rgb(2, 2, 39);
+	margin-bottom: 20px
+}
+.service-sec h3 {
+	font-size: 23px;
+	font-weight: 600;
+}
+.service-sec p {
+	line-height: 22px;
+	margin-top: 13px;
+	padding: 0 21px;
+}
+.service-sec .service-block {
+	margin-top: 30px;
+}
+
+/* ABOUT SECTION
+-------------------------------------------------- */
+.about-sec {
+	background: url('https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+
+
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+.about-sec:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:#45B39D ;
+	opacity: 0.7;
+	top: 0;
+	left: 0
+}
+.about-sec h2 {
+	font-size: 55px;
+	font-weight: 800;
+	margin-top: 25%;
+}
+.about-sec h2 small {
+	display: block;
+	font-size: 24px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+.about-sec p {
+	font-size: 16px;
+}
+
+.services-1 {
+    margin-bottom: 40px;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
+    .services-1 .icon {
+      display: block;
+      margin-bottom: 30px; }
+      .services-1 .icon i {
+        font-size: 60px;
+        line-height: 1.0;
+        color: rgb(2, 2, 39) }
+    .services-1 .desc h3 {
+      line-height: 1.3;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      position: relative;
+      color: rgb(2, 2, 39)}
+      .services-1 .desc h3:after {
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        right: 0;
+        content: '';
+        width: 30px;
+        height: 1px;
+        background:rgb(2, 2, 39);
+        margin: 0 auto; }
+      .services-1 .desc h3 a {
+        color:rgb(2, 2, 39) }
+    .services-1 .desc h4 {
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 18px; }
+    .services-1 .desc span {
+      display: block;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 10px;
+      color: rgb(2, 2, 39) }
+    .services-1:hover {
+      background: rgb(2, 2, 39);}
+      .services-1:hover .icon i {
+        color:rgb(2, 2, 39);; }
+      .services-1:hover h3 {
+        color: white; }
+        .services-1:hover h3:after {
+          background: rgb(2, 2, 39); }
+          
+
+
+.action-sec{width:100%; float:left; background:#222}
+.action-box{float:left; width:100%; text-align:center;}
+.action-box h2{color:#fff; font-size:20px;}
+/**
+ * Swiper 3.4.0
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * 
+ * http://www.idangero.us/swiper/
+ * 
+ * Copyright 2016, Vladimir Kharlampidi
+ * The iDangero.us
+ * http://www.idangero.us/
+ * 
+ * Licensed under MIT
+ * 
+ * Released on: October 16, 2016
+ */
+/*  */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/*Swiper*/
+.swiper-container {
+	width: 100%;
+	height: 100vh;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide:before {
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	top: 0;
+	left: 0
+}
+.main-slider h1 {
+  color:#45B39D  ;
+	font-size: 70px;
+
+
+	;
+}
+.main-slider .swiper-pagination-bullet {
+	width: 20px;
+	height: 20px;
+	background: rgba(255,255,255,0.9)
+}
+.main-slider .swiper-pagination-bullet-active {
+	background:#45B39D ;
+}
+
+
+
